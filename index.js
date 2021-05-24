@@ -6,6 +6,8 @@ const consign = require('consign')
 // gerencia os módulos
 consign()
     .then('./config/middlewares.js')
+    .then('./api')
+    .then('./config/routes.js')
     .into(app)
 
 // acesso ao knex
