@@ -1,5 +1,5 @@
 //renomear para .env
 
-module.export = {
+module.exports = {
     auhtSecret: ''
 }
